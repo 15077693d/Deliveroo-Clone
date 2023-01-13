@@ -22,7 +22,7 @@ function App() {
         initialRouteName="Home"
         screenOptions={{
           contentStyle: {
-            backgroundColor: "#FFFFFF",
+            backgroundColor: "#ffffff",
           },
         }}
       >

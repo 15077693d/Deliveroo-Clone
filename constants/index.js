@@ -25,3 +25,42 @@ export const categoryDetails = [
     title: "Pork",
   },
 ];
+
+export const restaurantDetails = [
+  {
+    imageUri:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbHwm-ordlaUtooLbB6Z6TUVT2r10cWty3LA&usqp=CAU",
+    title: "Nando's",
+    type: "Offers",
+    score: "4.8",
+    location: "Clink Street",
+    category: "near",
+  },
+  {
+    imageUri:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4w127Zu_1TnDkpWDDrp08nLeiAttMZXklcaYKrWx-mxIZgvq3ZO-I_e8lVnofBfcG_NY&usqp=CAU",
+    title: "Yo! Sushi",
+    type: "Sushi",
+    score: "4.8",
+    location: "Tottenham",
+    category: "near",
+  },
+  {
+    imageUri:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLsbsNhGH6up5h3dIOo_b171o9R039J92mVg&usqp=CAU",
+    title: "KFC",
+    type: "Offers",
+    score: "4.2",
+    location: "Waterloo",
+    category: "featured",
+  },
+  {
+    imageUri:
+      "https://media-cdn.tripadvisor.com/media/photo-s/12/ab/86/6e/wagamama-white-rose-centre.jpg",
+    title: "Wagamama",
+    type: "Asian",
+    score: "5",
+    location: "Southbank",
+    category: "featured",
+  },
+];

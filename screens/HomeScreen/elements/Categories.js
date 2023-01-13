@@ -6,7 +6,7 @@ import { categoryDetails } from "../../../constants";
 const Categories = () => {
   return (
     <ScrollView
-      className="p-2"
+      className="p-2 bg-slate-50"
       horizontal
       showsHorizontalScrollIndicator={false}
     >

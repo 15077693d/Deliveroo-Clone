@@ -3,9 +3,9 @@ import React from "react";
 import { ArrowRightIcon } from "react-native-heroicons/solid";
 import { deliverooGreen } from "../constants";
 
-const AppBar = ({ title, subtitle }) => {
+const TitleBar = ({ title, subtitle }) => {
   return (
-    <View className="p-2">
+    <View className="p-2 bg-slate-50">
       <View className="flex-row justify-between">
         <Text className="font-extrabold text-base text-black">{title}</Text>
         <ArrowRightIcon size={20} color={deliverooGreen} />
@@ -15,4 +15,4 @@ const AppBar = ({ title, subtitle }) => {
   );
 };
 
-export default AppBar;
+export default TitleBar;
