@@ -1,27 +1,23 @@
 import { useNavigation } from "@react-navigation/native";
-import React, { useLayoutEffect } from "react";
+import { useLayoutEffect } from "react";
 import {
-  SafeAreaView,
-  Text,
-  View,
   Image,
-  TextInput,
+  SafeAreaView,
   ScrollView,
-  StatusBar,
+  Text,
+  TextInput,
+  View,
 } from "react-native";
 import {
   AdjustmentsVerticalIcon,
   ChevronDownIcon,
   UserIcon,
 } from "react-native-heroicons/outline";
-import {
-  FaceSmileIcon,
-  MagnifyingGlassIcon,
-} from "react-native-heroicons/solid";
+import { MagnifyingGlassIcon } from "react-native-heroicons/solid";
+import TitleBar from "../../components/TitleBar";
+import { deliverooGreen } from "../../constants";
 import Categories from "./elements/Categories";
 import Restaurants from "./elements/Restaurants";
-import { deliverooGreen } from "../../constants";
-import TitleBar from "../../components/TitleBar";
 
 export default function HomeScreen() {
   const navigation = useNavigation();

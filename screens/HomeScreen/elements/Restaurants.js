@@ -1,6 +1,6 @@
 import { ScrollView } from "react-native";
 import React from "react";
-import FoodCard from "../../../components/Cards/FoodCard";
+import RestaurantCard from "../../../components/Cards/RestaurantCard";
 import { restaurantDetails } from "../../../constants";
 
 const Restaurants = ({ category }) => {
@@ -13,7 +13,7 @@ const Restaurants = ({ category }) => {
       {restaurantDetails
         .filter((restaurantDetail) => restaurantDetail.category === category)
         .map((detail, i) => (
-          <FoodCard {...detail} key={`restaurantCard_${category}_${i}`} />
+          <RestaurantCard {...detail} key={`restaurantCard_${category}_${i}`} />
         ))}
     </ScrollView>
   );

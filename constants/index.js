@@ -1,4 +1,8 @@
 export const deliverooGreen = "#00CDBC";
+export const screenNames = {
+  home: "Home",
+  restaurant: "Restaurant",
+};
 export const categoryDetails = [
   {
     imageUri:
@@ -25,7 +29,6 @@ export const categoryDetails = [
     title: "Pork",
   },
 ];
-
 export const restaurantDetails = [
   {
     imageUri:

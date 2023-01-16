@@ -3,6 +3,8 @@ import { Button, View, Text } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./screens/HomeScreen";
+import RestaurantScreen from "./screens/RestaurantScreen";
+import { screenNames } from "./constants";
 
 function DetailsScreen({ navigation }) {
   return (
@@ -19,15 +21,18 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Home"
+        initialRouteName={screenNames.home}
         screenOptions={{
           contentStyle: {
             backgroundColor: "#ffffff",
           },
         }}
       >
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Details" component={DetailsScreen} />
+        <Stack.Screen name={screenNames.home} component={HomeScreen} />
+        <Stack.Screen
+          name={screenNames.restaurant}
+          component={RestaurantScreen}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
